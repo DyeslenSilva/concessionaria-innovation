@@ -28,5 +28,7 @@ public class Aluguel {
 	@Column
 	private double valorAluguel;
 	
+	private boolean ativado;
+	
 	
 }

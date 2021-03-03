@@ -26,4 +26,7 @@ public class Cliente {
 		
 	@Column
 	private String endereco;
+	
+	private boolean ativado;
+	private boolean desativado;
 }

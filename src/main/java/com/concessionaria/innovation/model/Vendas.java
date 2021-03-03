@@ -35,4 +35,5 @@ public class Vendas {
 	private Cliente endereco;
 	
 
+	private boolean ativado,desativada;
 }

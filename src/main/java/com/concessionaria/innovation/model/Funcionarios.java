@@ -24,5 +24,7 @@ public class Funcionarios {
 	
 	@Column
 	private String telefoneDoFuncionario;
+	
+	private boolean ativado, desativado;
 
 }

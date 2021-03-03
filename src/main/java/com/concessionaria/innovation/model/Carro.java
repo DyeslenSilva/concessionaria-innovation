@@ -25,4 +25,8 @@ public class Carro {
 	private boolean novo;
 	@Column
 	private boolean usado;
+	
+	private boolean disponivel;
+	
+	private boolean indisponivel;
 }
