@@ -21,7 +21,7 @@ public class Vendas {
 	
 	private Carro modeloCarro;
 	
-	
+	private Carro placaDoCarro;
 	
 	@Column
 	private double valorVenda;

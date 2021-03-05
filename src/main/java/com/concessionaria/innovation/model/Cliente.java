@@ -23,6 +23,9 @@ public class Cliente {
 	@Column
 	private String nomeCliente;
 	
+	private String rg;
+	private String cpf;
+	
 		
 	@Column
 	private String endereco;
