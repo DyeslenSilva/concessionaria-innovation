@@ -26,11 +26,17 @@ public class Vendas {
 	@Column
 	private double valorVenda;
 	
+	
 	@Column
 	private int parcelas;
 
 	@Column
 	private double valorParcela;
+	
+	
+	private double entrada;
+	private double valorEntrada;
+	private double valorAposEntrada;
 	
 	@Column
 	private Cliente nomeCliente;
