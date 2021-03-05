@@ -26,6 +26,9 @@ public class Carro {
 	@Column
 	private boolean usado;
 	
+	
+	private String placaCarro;
+	
 	private boolean disponivel;
 	
 	private boolean indisponivel;
