@@ -25,7 +25,7 @@ public class Cliente {
 	
 	private String rg;
 	private String cpf;
-	
+	private String telefoneCelular;
 		
 	@Column
 	private String endereco;
