@@ -19,6 +19,10 @@ public class Vendas {
 	@Column
 	private String descricaoVenda;
 	
+	private Carro modeloCarro;
+	
+	
+	
 	@Column
 	private double valorVenda;
 	
@@ -34,6 +38,8 @@ public class Vendas {
 	@Column
 	private Cliente endereco;
 	
+	private Cliente rg,cpf;
+	private Cliente telefone;
 
 	private boolean ativado,desativada;
 }
