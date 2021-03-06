@@ -20,10 +20,22 @@ public class Funcionarios {
 	private String nomeDoFuncionario;
 	
 	@Column
+	private String rg;
+	
+	@Column
+	private String cpf;
+	
+	@Column
 	private String enderecoDoFuncionario;
 	
 	@Column
 	private String telefoneDoFuncionario;
+	
+	@Column
+	private String cidade;
+	
+	@Column
+	private String estado;
 	
 	private boolean ativado, desativado;
 
