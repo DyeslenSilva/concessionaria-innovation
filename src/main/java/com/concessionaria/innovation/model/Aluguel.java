@@ -20,7 +20,10 @@ public class Aluguel {
 	private String nomeCliente;
 	
 	@Column
-	private String nomeVeiculo;
+	private String descricaoAluguel;
+	
+	@Column
+	private String modeloDoCarro;
 	
 	@Column
 	private String marcaVeiculo;
@@ -28,7 +31,11 @@ public class Aluguel {
 	@Column
 	private double valorAluguel;
 	
+	@Column
+	private int tempoDeLocacao;
+	
 	private boolean ativado;
 	
+	private boolean desativado;
 	
 }
